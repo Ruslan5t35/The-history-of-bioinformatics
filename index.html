@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История Биоинформатики</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>История биоинформатики</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#history">История развития</a></li>
+                <li><a href="#technologies">Полезные ресурсы</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать!</h2>
+            <p>На нашем сайте вы сможете узнать об истории развития биоинформатики и основных ее задачах .</p>
+        </section>
+
+        <section id="history">
+            <h2>История развития</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="slide-1.jpg" alt="1">
+                        <p> 1: Начало биоинформатики.</p>
+                    </div>
+                    <div class="slide active">
+                        <img src="img7.jpg" alt="1">
+                        <p> 1: Начало биоинформатики.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="slide-2.jpg" alt="2">
+                        <p> 2: Развитие технологий.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="slide_14.jpg" alt="3">
+                        <p> 3: Основные задачи.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="screen16.jpg" alt="4">
+                        <p> 4: Достижения биоинформатики.</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="technologies">
+            <h2>Полезные ресурсы</h2>
+            <ul class="gallery">
+                <li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank">NCBI (Национальный центр биотехнологической информации)</a></li>
+                <li><a href="https://www.ensembl.org/" target="_blank">Ensembl (База данных геномов)</a></li>
+                <li><a href="https://www.r-project.org/" target="_blank">R (Язык программирования для статистики)</a></li>
+                <li><a href="https://bioconductor.org/" target="_blank">Bioconductor (Библиотеки для анализа данных в биоинформатике)</a></li>
+                <li><a href="https://www.genomeweb.com/" target="_blank">GenomeWeb (Новости и ресурсы в области геномики)</a></li>
+                <li><a href="https://www.bioinformatics.org/" target="_blank">Bioinformatics.org (Комьюнити и ресурсы по биоинформатике)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 История биоинформатики. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF; /* Голубой цвет */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #007BFF; /* Голубой цвет */
+    margin-bottom: 20px;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.gallery {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery li {
+    margin: 15px 0;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: #007BFF; /* Голубой цвет */
+    transition: color 0.3s;
+}
+
+.gallery a:hover {
+    color: #0056b3; /* Более тёмный голубой при наведении */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF; /* Голубой цвет */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
